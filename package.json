@@ -1,0 +1,6 @@
+{
+    "name": "@drive/root",
+    "scripts": {
+        "git": "bash .scripts/git/commit.sh"
+    }
+}

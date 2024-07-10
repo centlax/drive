@@ -1,6 +1,6 @@
 <p align="center">
 	<h1 align="center"><b>Cent Drive</b></h1>
-    <p>
+    <p align="center">
     Cent Drive is an open source cross-platform file explorer, powered by a virtual distributed filesystem written in Rust.
     </p>
 	<p align="center">
@@ -9,4 +9,3 @@
     <a href="https://drive.cent.com"><strong>drive.centlax.com »</strong></a>
   </p>
 </p>
-# drive
