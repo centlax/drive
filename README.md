@@ -6,6 +6,6 @@
 	<p align="center">
 		A file explorer from the future.
     <br />
-    <a href="https://drive.cent.com"><strong>drive.centlax.com »</strong></a>
+    <a href="https://drive.centlax.com"><strong>drive.centlax.com »</strong></a>
   </p>
 </p>
