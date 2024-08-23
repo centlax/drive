@@ -1,6 +1,7 @@
 {
     "name": "@drive/root",
     "scripts": {
-        "git": "bash .scripts/git/commit.sh"
-    }
+        "git": "bash .scripts/git.sh"
+    },
+    "packageManager":  "pnpm@9.5.0"
 }
