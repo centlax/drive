@@ -1,6 +1,37 @@
 {
-    "name": "@drive/root",
-    "scripts": {
-        "git": "bash .scripts/git/commit.sh"
-    }
+	"name": "@drive/root",
+	"scripts": {
+		"lint": "prettier --check . && eslint .",
+		"fmt": "prettier --write --check .",
+		"core": "pnpm --filter @drive/core --",
+		"_docs": "pnpm --filter @drive/docs --"
+
+	},
+	"packageManager": "pnpm@9.5.0",
+	"devDependencies": {
+		"eslint-config-prettier": "^9.1.0",
+		"@types/eslint": "^9.6.0",
+		"eslint": "^9.0.0",
+		"eslint-plugin-svelte": "^2.36.0",
+		"prettier": "^3.1.1",
+		"typescript-eslint": "^8.0.0",
+		"turbo": "^2.0.9"
+	},
+	"prettier": {
+		"useTabs": true,
+		"singleQuote": true,
+		"trailingComma": "none",
+		"printWidth": 100,
+		"plugins": [
+			"prettier-plugin-svelte"
+		],
+		"overrides": [
+			{
+				"files": "*.svelte",
+				"options": {
+					"parser": "svelte"
+				}
+			}
+		]
+	}
 }

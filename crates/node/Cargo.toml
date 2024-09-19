@@ -1,5 +1,5 @@
 [package]
-name = "drive"
+name = "node"
 edition.workspace = true
 version.workspace = true
 repository.workspace = true

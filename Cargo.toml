@@ -1,10 +1,6 @@
 [workspace]
 resolver = "2"
-members = ["crates/*", "drive"]
-# At the moment, this crate only being used to enable 
-# desktop application
-#exclude = ["apps/desktop/src-tauri"]
-
+members = [ "apps/core/src-tauri", "crates/*", "drive"]
 
 [workspace.package]
 edition = "2021"
